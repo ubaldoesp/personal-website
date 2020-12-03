@@ -34,6 +34,13 @@ ul li a{
 /* 
  ======================== Banner =============================
 */
+.banner{
+    background-image: url("https://www.wallpapertip.com/wmimgs/82-822588_developpement-web-programming-language.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: repeat;
+    background-size: cover;
+}
 .profile-picture {
     width: 150px;
     height: 150px;
@@ -72,11 +79,28 @@ span {
 }
 
 .card {
-    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
-    background-color: white;
+    /*box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;*/
+    background-color: rgb(19, 18, 18);
+    height: 100%;
+}
+
+.card-about  {
+    /*box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;*/
+    background-color: rgb(19, 18, 18);
+    height: 150px;
+    padding: 0 20px 20px 20px ;
+
+}
+
+.card-about .about-body {
+    padding-left: 50px;
+    display: inline-block;
 }
 .card .card-body {
-    padding: 20px;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    
 }
 
 
@@ -84,7 +108,7 @@ span {
 ======================== Helpers =============================
 */
 .primary-text {
-    color: #0d1568;
+    color: #e9e9ec;
 }
 
 .second-text{
@@ -95,4 +119,12 @@ span {
 }
 .space-top {
     margin-top: 20px;
+}
+
+.align-text{
+    text-align: center;
+}
+
+.about{
+    color: yellow;
 }
